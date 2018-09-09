@@ -2,7 +2,6 @@
 /************************************************************************/
 body{
     font-family: sans-serif;
-    height: 4000px;
 }
 
 /************************************************************************/
@@ -103,7 +102,9 @@ header nav ul li a{
 
 /************************************************************************/
 /*********************** section ****************************************/
-section{}
+section{
+    overflow: hidden;
+}
 
 section aside{
     color: white;
@@ -141,10 +142,53 @@ section aside form input{
 }
 
 
+/************************************************************************/
+/*********************** section ****************************************/
+footer{
+    margin-top: 30px;
+    background-color: #f3f3f3;
+    padding: 20px 5px;
+}
 
+footer nav{}
 
+footer nav ul{
+    list-style: none;
+    margin-left: 20px;
+    padding-left: 0;
+}
 
+footer nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
 
+footer nav ul li a{
+    text-decoration: none;
+    color: #7d7d7d;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+footer nav ul li a:hover{
+    text-decoration: underline;
+    color: #14c1e1;
+}
+
+footer div{
+    margin-left: 20px;
+}
+
+footer div p{
+    font-size: 18px;
+    color: #b1b1b1;
+    text-transform: uppercase;
+}
+
+footer div p span{
+    color: #14c1e1;
+    margin-left: 10px;
+}
 
 
 
